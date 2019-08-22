@@ -1,0 +1,28 @@
+{
+  "name": "WRAP-NOTIF",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/notif-client.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "mkdir -p lib && babel src --out-dir lib",
+    "clean": "rm -rf lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6"
+  },
+  "private": true,
+  "dependencies": {
+    "socket.io-client": "^2.2.0"
+  }
+}
