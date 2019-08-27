@@ -31,7 +31,7 @@ class NotifClient {
     this.socket.close();
   }
   isConnected() {
-    this.socket.connected;
+    return this.socket.connected;
   }
 }
 export { NotifClient };
